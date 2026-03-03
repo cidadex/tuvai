@@ -164,7 +164,7 @@ const AgendamentoModal: React.FC<AgendamentoModalProps> = ({ isOpen, onClose }) 
       <div className="bg-[#FF6B00]/10 p-4 rounded-xl">
         <div className="flex items-center gap-2 mb-3">
           <MapPin className="w-5 h-5 text-[#FF6B00]" />
-          <span className="font-semibold">Origem (Mercado/Loja)</span>
+          <span className="font-semibold">Local de partida</span>
         </div>
         <AddressAutocomplete
           value={formData.origemDescricao}
@@ -172,8 +172,8 @@ const AgendamentoModal: React.FC<AgendamentoModalProps> = ({ isOpen, onClose }) 
             setFormData(prev => ({ ...prev, origemDescricao: value }));
             setOrigemGeocoded(address || null);
           }}
-          placeholder="Buscar mercado, loja ou endereço..."
-          type="establishment"
+          placeholder="Mercado, farmácia, feira, endereço..."
+          type="address"
         />
       </div>
 

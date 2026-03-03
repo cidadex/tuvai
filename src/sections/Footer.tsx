@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               <div className="w-10 h-10 bg-[#FF6B00] rounded-xl flex items-center justify-center">
                 <ShoppingBag className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">TU VAI</span>
+              <span className="text-xl font-bold">TUVAI</span>
             </a>
             <p className="text-white/60 text-sm mb-6">
               Transporte de compras sem cancelamento. Sua solução para voltar do mercado com tranquilidade.
@@ -132,7 +132,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/40 text-sm">
-            © 2024 TU VAI. Todos os direitos reservados.
+            © 2024 TUVAI. Todos os direitos reservados.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-white/40 hover:text-white transition-colors">

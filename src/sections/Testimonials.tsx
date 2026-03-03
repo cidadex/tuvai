@@ -37,7 +37,7 @@ const Testimonials: React.FC = () => {
       id: 1,
       nome: 'Maria S.',
       role: 'Cliente há 6 meses',
-      quote: 'Antes eu tinha vergonha de chamar Uber com compras. Agora tenho tranquilidade. O motorista sempre chega e ainda ajuda a carregar!',
+      quote: 'Fui cancelada três vezes em um sábado saindo do mercado. Na quarta vez tentei o TUVAI. O motorista chegou, me ajudou a colocar tudo no carro e nunca mais precisei me preocupar com isso.',
       rating: 5,
       initials: 'MS',
     },
@@ -45,7 +45,7 @@ const Testimonials: React.FC = () => {
       id: 2,
       nome: 'João P.',
       role: 'Cliente há 1 ano',
-      quote: 'Preço justo, motoristas educados. Nunca mais fiquei na mão depois das compras do mês. Recomendo demais!',
+      quote: 'Uso todo mês para trazer as compras da feira. Já sei o preço antes de sair de casa, o motorista sempre aparece e ainda carrega as sacolas até o apartamento. Não consigo mais imaginar de outro jeito.',
       rating: 5,
       initials: 'JP',
     },
@@ -53,7 +53,7 @@ const Testimonials: React.FC = () => {
       id: 3,
       nome: 'Ana L.',
       role: 'Cliente há 3 meses',
-      quote: 'Minha mãe usa agora também. É seguro, confiável e o preço é transparente. Não tem aquela surpresa no final.',
+      quote: 'Minha mãe de 68 anos fazia compras pesadas e ficava constrangida pedindo ajuda na calçada. Apresentei o TUVAI pra ela. Hoje ela agenda sozinha e volta para casa com segurança. Isso não tem preço.',
       rating: 5,
       initials: 'AL',
     },
@@ -61,7 +61,7 @@ const Testimonials: React.FC = () => {
       id: 4,
       nome: 'Carlos R.',
       role: 'Motorista parceiro',
-      quote: 'Ganho bem e ajudo as pessoas. Trabalho com orgulho e a plataforma é muito justa com os motoristas.',
+      quote: 'Trabalho com orgulho porque sei exatamente o que vou encontrar. Sem surpresa, sem estresse. Os clientes são bem-educados e o retorno financeiro é muito melhor do que nos outros aplicativos.',
       rating: 5,
       initials: 'CR',
     },
@@ -84,7 +84,7 @@ const Testimonials: React.FC = () => {
             Quem usa, recomenda
           </h2>
           <p className="text-lg text-[#666666] max-w-2xl mx-auto">
-            Mais de 10.000 pessoas já confiaram no TU VAI
+            Mais de 10.000 pessoas já confiaram no TUVAI
           </p>
         </div>
 

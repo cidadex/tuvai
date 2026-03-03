@@ -74,8 +74,8 @@ const Hero: React.FC<HeroProps> = ({ onAgendarClick }) => {
 
             {/* Subheadline */}
             <p className="text-lg text-[#666666] max-w-lg animate-slide-up stagger-3">
-              Sabe quando o motorista cancela porque você tem muitas sacolas? 
-              <span className="text-[#1A1A1A] font-semibold"> Isso não acontece aqui.</span>
+              Chame de qualquer mercado, loja, farmácia ou feira — um motorista preparado vai até você, ajuda com as sacolas e leva para casa.
+              <span className="text-[#1A1A1A] font-semibold"> Sem cancelamento. Sem surpresa no preço.</span>
             </p>
 
             {/* Features */}

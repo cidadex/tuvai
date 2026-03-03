@@ -24,17 +24,19 @@ const ProblemSolution: React.FC = () => {
   }, []);
 
   const problemPoints = [
-    'Motoristas cancelam ao ver compras',
-    'Vergonha de ficar esperando na porta',
-    'Prejuízo com produtos perecíveis',
-    'Humilhação pública',
+    'Motorista cancela ao ver as sacolas na calçada',
+    'Aplicativo não avisa o motivo — você fica no escuro',
+    'Produtos perecíveis estragam enquanto espera novo carro',
+    'Constrangimento na frente de outros clientes do mercado',
+    'Paga o produto, não consegue levar para casa',
   ];
 
   const solutionPoints = [
-    'Transporte confirmado, sem rejeição',
-    'Motoristas preparados para ajudar',
-    'Preço transparente, sem surpresas',
-    'Agendamento garantido',
+    'Motoristas aceitam 100% das corridas com compras',
+    'Ajudam a carregar — isso faz parte do serviço',
+    'Preço fixo fechado antes da corrida, sem surpresa',
+    'Agendamento com hora marcada: você programa, a gente garante',
+    'Suporte disponível em qualquer etapa da viagem',
   ];
 
   return (
@@ -43,10 +45,10 @@ const ProblemSolution: React.FC = () => {
         {/* Section Header */}
         <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-3xl sm:text-4xl font-bold text-[#1A1A1A] mb-4">
-            O problema que resolvemos
+            Por que você precisa do TUVAI?
           </h2>
           <p className="text-lg text-[#666666] max-w-2xl mx-auto">
-            Você já passou por isso? Nós também. Por isso criamos o TU VAI.
+            Você não deveria depender da sorte para chegar em casa com suas compras.
           </p>
         </div>
 
@@ -66,10 +68,10 @@ const ProblemSolution: React.FC = () => {
             </div>
 
             <div className="pt-6">
-              <h3 className="text-2xl font-bold text-red-600 mb-4">O problema</h3>
+              <h3 className="text-2xl font-bold text-red-600 mb-4">O que acontece hoje</h3>
               <p className="text-[#666666] mb-6">
-                Você sai do supermercado com as sacolas pesadas, tenta chamar um carro e...{' '}
-                <span className="text-red-600 font-semibold">cancelam.</span>
+                Você fez as compras, está carregado na saída do mercado, pede o carro e...{' '}
+                <span className="text-red-600 font-semibold">o motorista cancela sem explicação.</span>
               </p>
 
               <ul className="space-y-4">
@@ -105,10 +107,10 @@ const ProblemSolution: React.FC = () => {
             </div>
 
             <div className="pt-6">
-              <h3 className="text-2xl font-bold text-green-600 mb-4">A solução</h3>
+              <h3 className="text-2xl font-bold text-green-600 mb-4">Com o TUVAI</h3>
               <p className="text-[#666666] mb-6">
-                O TU VAI é feito <span className="text-green-600 font-semibold">EXCLUSIVAMENTE</span> para transporte de compras. 
-                Nunca mais se preocupe com cancelamento.
+                O TUVAI existe <span className="text-green-600 font-semibold">exclusivamente</span> para transporte de compras. 
+                Nossos motoristas sabem disso antes de aceitar — e são treinados para isso.
               </p>
 
               <ul className="space-y-4">

@@ -60,7 +60,7 @@ const Navbar: React.FC<NavbarProps> = ({ onLoginClick, onAgendarClick }) => {
                 <ShoppingBag className="w-5 h-5 text-white" />
               </div>
               <span className={`text-xl font-bold transition-colors ${isScrolled ? 'text-[#1A1A1A]' : 'text-[#1A1A1A]'}`}>
-                TU VAI
+                TUVAI
               </span>
             </a>
 

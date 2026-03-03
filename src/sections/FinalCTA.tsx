@@ -67,12 +67,12 @@ const FinalCTA: React.FC<FinalCTAProps> = ({ onAgendarClick }) => {
         {/* Content */}
         <div className={`space-y-8 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-            Pronto para nunca mais{' '}
-            <span className="text-gradient">se preocupar?</span>
+            Nunca mais fique na calçada{' '}
+            <span className="text-gradient">esperando.</span>
           </h2>
 
           <p className="text-xl text-white/80 max-w-2xl mx-auto">
-            Agende agora e tenha tranquilidade na sua próxima compra.
+            Agende antes de fazer as compras. O motorista já estará confirmado quando você terminar. A partir de R$20.
           </p>
 
           {/* CTAs */}
@@ -81,7 +81,7 @@ const FinalCTA: React.FC<FinalCTAProps> = ({ onAgendarClick }) => {
               onClick={onAgendarClick}
               className="bg-[#FF6B00] text-white px-8 py-4 rounded-full font-semibold text-lg flex items-center justify-center gap-2 hover:bg-[#FF8C42] transition-all transform hover:scale-105 animate-pulse-glow"
             >
-              Agendar Meu Transporte
+              Garantir Minha Viagem Agora
               <ArrowRight className="w-5 h-5" />
             </button>
             

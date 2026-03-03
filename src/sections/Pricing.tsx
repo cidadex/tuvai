@@ -104,13 +104,13 @@ const Pricing: React.FC<PricingProps> = ({ onAgendarClick }) => {
                   <div className="bg-[#FF6B00]/5 p-4 rounded-xl">
                     <div className="flex items-center gap-2 mb-3">
                       <MapPin className="w-5 h-5 text-[#FF6B00]" />
-                      <span className="font-semibold text-sm">Origem (Mercado/Loja)</span>
+                      <span className="font-semibold text-sm">Local de partida</span>
                     </div>
                     <AddressAutocomplete
                       value=""
                       onChange={(_value, address) => setOrigemGeocoded(address || null)}
-                      placeholder="Buscar mercado ou endereço..."
-                      type="establishment"
+                      placeholder="Mercado, farmácia, feira, endereço..."
+                      type="address"
                     />
                   </div>
 
