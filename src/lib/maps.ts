@@ -130,10 +130,12 @@ const simulateAddressSuggestions = (query: string): AddressSuggestion[] => {
   if (!query || query.length < 3) return [];
   
   const lowerQuery = query.toLowerCase();
-  return mockAddresses.filter(addr => 
+  const matched = mockAddresses.filter(addr => 
     addr.description.toLowerCase().includes(lowerQuery) ||
-    addr.mainText.toLowerCase().includes(lowerQuery)
+    addr.mainText.toLowerCase().includes(lowerQuery) ||
+    addr.secondaryText.toLowerCase().includes(lowerQuery)
   );
+  return matched.length > 0 ? matched : mockAddresses.slice(0, 5);
 };
 
 // Buscar sugestões de endereços (Autocomplete)

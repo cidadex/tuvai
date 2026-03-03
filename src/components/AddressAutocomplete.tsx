@@ -72,6 +72,7 @@ const AddressAutocomplete: React.FC<AddressAutocompleteProps> = ({
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = e.target.value;
     setQuery(newValue);
+    setSelectedAddress(null);
     fetchSuggestions(newValue);
   };
 
@@ -135,8 +136,8 @@ const AddressAutocomplete: React.FC<AddressAutocompleteProps> = ({
 
       {/* Info quando não há API key */}
       {!suggestions.length && query.length >= 3 && !isLoading && (
-        <p className="text-xs text-gray-400 mt-1">
-          💡 Digite pelo menos 3 caracteres para buscar
+        <p className="text-xs text-amber-500 mt-1">
+          Nenhum resultado. Tente outro nome ou endereço.
         </p>
       )}
 
